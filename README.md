@@ -18,4 +18,4 @@ function getRandomImage() {
     }
 ```
 
-Example : https://pcdelatara.github.io/itbr-api-example/
+Example : [itbr-api-example](https://pcdelatara.github.io/itbr-api-example/)
