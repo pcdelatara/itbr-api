@@ -17,3 +17,5 @@ function getRandomImage() {
         });
     }
 ```
+
+Example : https://pcdelatara.github.io/itbr-api-example/
