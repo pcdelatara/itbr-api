@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+    const images = Array.from({ length: 21 }, (_, i) => 
+      `https://pcdelatara.github.io/itbr-api/images/ (${i + 1}).png`
+    );
+    const random = images[Math.floor(Math.random() * images.length)];
+    
+    // Output JSON-like response
+    document.write(JSON.stringify({ image: random }));
+  </script>
+</head>
+<body></body>
+</html>
